@@ -1,0 +1,59 @@
+
+DELETE   http://localhost:8000/api/productos/63aa4049bbeda2f9b2c7b09d HTTP/1.1
+content-type: application/json
+
+{
+
+}
+
+###
+//agregar elementos
+POST  http://localhost:8000/api/productos HTTP/1.1
+content-type: application/json
+
+{
+ "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_705097-MLA45043489158_032021-F.webp",
+    "title": "dario",
+    "price": "2022",
+    "category":"AMD"
+}
+
+###
+
+
+PUT  http://localhost:8000/api/productos/63bc75ef5283ff38fa54c100 HTTP/1.1
+content-type: application/json
+
+{
+ "thumbnail": "https://th.bing.com/th/id/R.8771df7a25fa7880159df6c0167fb567?rik=MW90hFmQivKl%2fg&pid=ImgRaw&r=0"
+
+}
+###
+POST  http://localhost:8000/api/carrito HTTP/1.1
+content-type: application/json
+
+{
+ "thumbnail": "https://http2.mlstatic.com/D_NQ_NP_2X_705097-MLA45043489158_032021-F.webp",
+    "title": "dario",
+    "price": "2022",
+    "category":"AMD"
+}
+
+###
+DELETE  http://localhost:8000/api/carrito/63b74a6f2edbca9115fde3d0 HTTP/1.1
+content-type: application/json
+
+{
+
+}
+
+###
+
+PUT  http://localhost:8000/api/carrito/63b8a251da654d9586af2c7a HTTP/1.1
+content-type: application/json
+
+{
+ "email": "dario_ss22222@hotmail.com",
+    "direccion":"calle 222221",
+    "hora":"las 2032323horas"
+}

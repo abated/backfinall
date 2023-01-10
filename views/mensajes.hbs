@@ -1,0 +1,39 @@
+
+    <h1>Mensajes</h1>
+    {{#if mensajes}}
+    <ul class="midlaner">
+        {{#each mensajes}}
+        <li>
+            <span class="nombre">
+                {{email}}
+            </span>
+            <span class="hora">
+                [{{hora}}]:
+
+            </span>
+            <span class="mensaje">
+                {{mensaje}}
+            </span>
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+        {{#if mensajesid}}
+    <ul class="midlaner">
+        {{#each mensajesid}}
+        <li>
+            <span class="nombre">
+                {{email}}
+            </span>
+            <span class="hora">
+                [{{hora}}]:
+
+            </span>
+            <span class="mensaje">
+                {{mensaje}}
+            </span>
+        </li>
+        {{/each}}
+    </ul>
+    {{/if}}
+
