@@ -34,13 +34,11 @@ passport.use('signup', new LocalStrategy({
         telefono,
         avatar
     }
-    const TEST_MAIL = 'dario.tasa@gmail.com'
-
 const transporter = createTransport({
    service: 'gmail',
    port: 587,
    auth: {
-       user: TEST_MAIL,
+       user: config.usuarionodemail,
        pass: config.passnodemailer
    }
 });

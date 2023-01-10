@@ -1,11 +1,10 @@
 const {createTransport} = require("nodemailer")
 const config = require("../../config.js")
-const TEST_MAIL = 'dario.tasa@gmail.com'
 const transporter = createTransport({
    service: 'gmail',
    port: 587,
    auth: {
-       user: TEST_MAIL,
+       user: config.usuarionodemail,
        pass: config.passnodemailer
    }
 });

@@ -12,6 +12,7 @@ module.exports = {
     PORT: process.env.PORT || 8000,
     TIPO_PERSISTENCIA:'MONGO',
     MONGO_CONNECT:"mongodb+srv://dario:1164945700@cluster0.vqbfuks.mongodb.net/?retryWrites=true&w=majority",
+    usuarionodemail:"dario.tasa@gmail.com",
     passnodemailer:"ttdkjczkisftsslv"
  
 }
