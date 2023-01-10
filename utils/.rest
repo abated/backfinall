@@ -40,7 +40,7 @@ content-type: application/json
 }
 
 ###
-DELETE  http://localhost:8000/api/carrito/63b74a6f2edbca9115fde3d0 HTTP/1.1
+DELETE  http://localhost:8000/api/carrito/63bc77f75283ff38fa54c120 HTTP/1.1
 content-type: application/json
 
 {

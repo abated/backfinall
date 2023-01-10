@@ -17,9 +17,7 @@ if (config.NODE_ENV === 'development') {
 const session = require("express-session")
 const passport = require("passport")
 
-app.get("/",(req,res)=>{
-    res.redirect("/login")
-})
+
 app.use(session({
     secret: 'keyboard cat',
     cookie: {
@@ -34,7 +32,14 @@ app.use(session({
 
 app.use(passport.initialize())
 app.use(passport.session())
+app.get("/",(req,res)=>{
+    if (req.isAuthenticated()) {
+        res.redirect("api/productos")
+    }else{
+        res.redirect("/login")
 
+    }
+})
 //HandleBars
 const handlebars = require("express-handlebars")
 app.engine(

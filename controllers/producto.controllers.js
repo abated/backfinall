@@ -1,26 +1,28 @@
 
 const ApiProductos = require("../api/productos.api.js")
 const Users = require("../model/models/usuario.model.js")
-const ApiCarritos = require("../api/carritos.api.js")
+const ApiCarritos = require("../model/models/carrito.model.js")
 const logger = require("../utils/loggers/logger.js")
 class ControladorProductos {
 
     constructor() {
         this.apiProductos = new ApiProductos()
-        this.apiCarritos = new ApiCarritos()
     }
 
     obtenerProductos = async (req,res) => {
         try {
-            const CarritoProductos = await this.apiCarritos.obtenerCarritos()
-            logger.info(CarritoProductos)
             const usuario = req.session.passport.user
             const elementos = await Users.findOne({_id:usuario})
+            const emailCarrito = elementos.email
+            const CarritoProductos = await ApiCarritos.findOne({"email":emailCarrito})
+     
+            logger.info(CarritoProductos)
             let productos = await this.apiProductos.obtenerProductos()
             res.render('index', {
                 productos: productos,
                 mensaje: elementos.username,
-                email:elementos.email 
+                email:elementos.email,
+                carrito:CarritoProductos
             })
         }
         catch(error) {

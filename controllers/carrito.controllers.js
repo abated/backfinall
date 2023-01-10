@@ -53,7 +53,7 @@ class ControladorCarritos {
         const {hora,title,cantidad} = req.body
         {hora,title,cantidad}
         await this.apiCarritos.agregarCarrito({title:title,cantidad:cantidad,hora:hora,email:elementos.email,direccion:elementos.direccion})
-        res.render('carrito')
+        res.redirect('/')
         } catch (error) {
         logger.error(error)
         }

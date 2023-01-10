@@ -19,7 +19,7 @@
     <form action="/logout" method="GET">
         <button type="submit"> DESLOGEAR</button>
     </form>
-    {{!-- <h2>{{mensaje}}</h2> --}}
+
     <div>
         <div>
             <h2>Agregar Productos Administrador</h2>
@@ -27,9 +27,22 @@
             <ul id="listado">
             </ul>
         </div>
-        <h1><a href="/api/carrito">Ver productos en carrito</a></h1>
+        <h1><a href="/api/carrito">Ver todos los carritos</a></h1>
     </div>
-    <div>
+
+    <h1>productos de {{email}}</h1>
+        <div>{{#each carrito}}
+{{#each items}}
+        
+     <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Producto:{{title}} Cantidad:{{cantidad}}</h5>
+  
+  </div>
+</div>
+        {{/each}}
+        {{/each}}
+         </div>
         {{> formularioMensajes }}
         {{!-- {{> mensajes }} --}}
         <ul id="mensajee" class="midlaner">

@@ -1727,3 +1727,393 @@
 [2023-01-09T22:05:14.046] [WARN] custom - SocketOn
 [2023-01-09T22:06:01.164] [ERROR] custom - SocketOn
 [2023-01-09T22:06:01.165] [WARN] custom - SocketOn
+[2023-01-10T15:40:56.414] [ERROR] custom - error Productos ReferenceError: apiCarritos is not defined
+    at obtenerProductos (C:\Users\Dario\Desktop\finalBack\controllers\producto.controllers.js:18:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-01-10T15:41:39.437] [ERROR] custom - SocketOn
+[2023-01-10T15:41:39.438] [WARN] custom - SocketOn
+[2023-01-10T15:41:46.281] [ERROR] custom - SocketOn
+[2023-01-10T15:41:46.282] [WARN] custom - SocketOn
+[2023-01-10T15:41:53.425] [ERROR] custom - SocketOn
+[2023-01-10T15:41:53.425] [WARN] custom - SocketOn
+[2023-01-10T15:41:55.066] [ERROR] custom - SocketOn
+[2023-01-10T15:41:55.066] [WARN] custom - SocketOn
+[2023-01-10T15:44:47.283] [ERROR] custom - SocketOn
+[2023-01-10T15:44:47.284] [WARN] custom - SocketOn
+[2023-01-10T15:44:49.551] [ERROR] custom - SocketOn
+[2023-01-10T15:44:49.552] [WARN] custom - SocketOn
+[2023-01-10T15:44:58.626] [ERROR] custom - Error: productos validation failed: category: Path `category` is required., price: Path `price` is required., thumbnail: Path `thumbnail` is required.
+    at ValidationError.inspect (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:806:19)
+    at inspect (node:internal/util/inspect:365:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2273:40)
+    at Object.format (node:internal/util/inspect:2130:10)
+    at basicLayout (C:\Users\Dario\Desktop\finalBack\node_modules\log4js\lib\layouts.js:65:52)
+    at app (C:\Users\Dario\Desktop\finalBack\node_modules\log4js\lib\appenders\file.js:98:23)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\log4js\lib\appenders\logLevelFilter.js:10:7
+    at C:\Users\Dario\Desktop\finalBack\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>) {
+  errors: {
+    category: ValidatorError: Path `category` is required.
+        at validate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\document.js:2903:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'category',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    price: ValidatorError: Path `price` is required.
+        at validate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\document.js:2903:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'price',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    thumbnail: ValidatorError: Path `thumbnail` is required.
+        at validate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaType.doValidate (C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\schematype.js:1330:7)
+        at C:\Users\Dario\Desktop\finalBack\node_modules\mongoose\lib\document.js:2903:18
+        at process.processTicksAndRejections (node:internal/process/task_queues:77:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'thumbnail',
+      value: undefined,
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'productos validation failed'
+}
+[2023-01-10T15:45:35.566] [ERROR] custom - SocketOn
+[2023-01-10T15:45:35.566] [WARN] custom - SocketOn
+[2023-01-10T15:50:51.360] [ERROR] custom - SocketOn
+[2023-01-10T15:50:51.360] [WARN] custom - SocketOn
+[2023-01-10T15:50:54.558] [ERROR] custom - SocketOn
+[2023-01-10T15:50:54.559] [WARN] custom - SocketOn
+[2023-01-10T15:51:01.166] [ERROR] custom - SocketOn
+[2023-01-10T15:51:01.166] [WARN] custom - SocketOn
+[2023-01-10T15:51:02.026] [ERROR] custom - SocketOn
+[2023-01-10T15:51:02.026] [WARN] custom - SocketOn
+[2023-01-10T15:51:15.406] [ERROR] custom - SocketOn
+[2023-01-10T15:51:15.407] [WARN] custom - SocketOn
+[2023-01-10T15:51:38.695] [ERROR] custom - SocketOn
+[2023-01-10T15:51:38.696] [WARN] custom - SocketOn
+[2023-01-10T15:51:40.871] [ERROR] custom - SocketOn
+[2023-01-10T15:51:40.872] [WARN] custom - SocketOn
+[2023-01-10T15:51:43.198] [ERROR] custom - SocketOn
+[2023-01-10T15:51:43.198] [WARN] custom - SocketOn
+[2023-01-10T15:51:48.405] [ERROR] custom - SocketOn
+[2023-01-10T15:51:48.406] [WARN] custom - SocketOn
+[2023-01-10T15:51:58.119] [ERROR] custom - SocketOn
+[2023-01-10T15:51:58.120] [WARN] custom - SocketOn
+[2023-01-10T15:52:00.212] [ERROR] custom - SocketOn
+[2023-01-10T15:52:00.213] [WARN] custom - SocketOn
+[2023-01-10T15:52:02.517] [ERROR] custom - SocketOn
+[2023-01-10T15:52:02.517] [WARN] custom - SocketOn
+[2023-01-10T15:52:06.293] [ERROR] custom - SocketOn
+[2023-01-10T15:52:06.293] [WARN] custom - SocketOn
+[2023-01-10T15:58:36.149] [ERROR] custom - TypeError: Cannot read properties of undefined (reading 'user')
+    at agregarCarrito (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:51:46)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T15:58:46.586] [ERROR] custom - SocketOn
+[2023-01-10T15:58:46.586] [WARN] custom - SocketOn
+[2023-01-10T15:58:53.163] [ERROR] custom - SocketOn
+[2023-01-10T15:58:53.164] [WARN] custom - SocketOn
+[2023-01-10T15:58:58.992] [ERROR] custom - SocketOn
+[2023-01-10T15:58:58.992] [WARN] custom - SocketOn
+[2023-01-10T15:59:26.442] [ERROR] custom - SocketOn
+[2023-01-10T15:59:26.443] [WARN] custom - SocketOn
+[2023-01-10T15:59:29.688] [ERROR] custom - SocketOn
+[2023-01-10T15:59:29.689] [WARN] custom - SocketOn
+[2023-01-10T15:59:31.495] [ERROR] custom - SocketOn
+[2023-01-10T15:59:31.495] [WARN] custom - SocketOn
+[2023-01-10T16:05:38.575] [ERROR] custom - SocketOn
+[2023-01-10T16:05:38.576] [WARN] custom - SocketOn
+[2023-01-10T16:09:28.439] [ERROR] custom - SocketOn
+[2023-01-10T16:09:28.440] [WARN] custom - SocketOn
+[2023-01-10T16:09:30.500] [ERROR] custom - SocketOn
+[2023-01-10T16:09:30.501] [WARN] custom - SocketOn
+[2023-01-10T16:10:57.312] [ERROR] custom - SocketOn
+[2023-01-10T16:10:57.313] [WARN] custom - SocketOn
+[2023-01-10T16:10:57.841] [ERROR] custom - error Carrito TypeError: Cannot read properties of undefined (reading 'user')
+    at obtenerCarritos (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:13:49)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T16:11:52.413] [ERROR] custom - error Carrito TypeError: Cannot read properties of undefined (reading 'user')
+    at obtenerCarritos (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:13:49)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T16:11:55.688] [ERROR] custom - SocketOn
+[2023-01-10T16:11:55.689] [WARN] custom - SocketOn
+[2023-01-10T16:12:02.852] [ERROR] custom - SocketOn
+[2023-01-10T16:12:02.853] [WARN] custom - SocketOn
+[2023-01-10T16:12:48.695] [ERROR] custom - SocketOn
+[2023-01-10T16:12:48.696] [WARN] custom - SocketOn
+[2023-01-10T16:12:54.738] [ERROR] custom - SocketOn
+[2023-01-10T16:12:54.738] [WARN] custom - SocketOn
+[2023-01-10T16:12:56.226] [ERROR] custom - SocketOn
+[2023-01-10T16:12:56.226] [WARN] custom - SocketOn
+[2023-01-10T16:12:57.411] [ERROR] custom - SocketOn
+[2023-01-10T16:12:57.411] [WARN] custom - SocketOn
+[2023-01-10T16:13:05.290] [ERROR] custom - SocketOn
+[2023-01-10T16:13:05.290] [WARN] custom - SocketOn
+[2023-01-10T16:13:44.676] [ERROR] custom - SocketOn
+[2023-01-10T16:13:44.677] [WARN] custom - SocketOn
+[2023-01-10T18:56:38.889] [ERROR] custom - SocketOn
+[2023-01-10T18:56:38.890] [WARN] custom - SocketOn
+[2023-01-10T18:57:25.396] [ERROR] custom - SocketOn
+[2023-01-10T18:57:25.397] [WARN] custom - SocketOn
+[2023-01-10T19:00:01.116] [ERROR] custom - SocketOn
+[2023-01-10T19:00:01.117] [WARN] custom - SocketOn
+[2023-01-10T19:00:17.605] [ERROR] custom - SocketOn
+[2023-01-10T19:00:17.606] [WARN] custom - SocketOn
+[2023-01-10T19:00:24.818] [ERROR] custom - SocketOn
+[2023-01-10T19:00:24.819] [WARN] custom - SocketOn
+[2023-01-10T19:00:46.691] [ERROR] custom - SocketOn
+[2023-01-10T19:00:46.692] [WARN] custom - SocketOn
+[2023-01-10T19:00:49.197] [ERROR] custom - SocketOn
+[2023-01-10T19:00:49.197] [WARN] custom - SocketOn
+[2023-01-10T19:01:05.838] [ERROR] custom - SocketOn
+[2023-01-10T19:01:05.838] [WARN] custom - SocketOn
+[2023-01-10T19:01:07.265] [ERROR] custom - SocketOn
+[2023-01-10T19:01:07.265] [WARN] custom - SocketOn
+[2023-01-10T19:01:30.854] [ERROR] custom - SocketOn
+[2023-01-10T19:01:30.855] [WARN] custom - SocketOn
+[2023-01-10T19:01:36.762] [ERROR] custom - SocketOn
+[2023-01-10T19:01:36.762] [WARN] custom - SocketOn
+[2023-01-10T19:02:04.031] [ERROR] custom - error Carrito TypeError: ApiCarritos.findOne is not a function
+    at obtenerCarritos (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:17:54)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2023-01-10T19:03:08.843] [ERROR] custom - error Carrito TypeError: Cannot read properties of undefined (reading 'user')
+    at obtenerCarritos (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:14:49)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T19:03:17.902] [ERROR] custom - SocketOn
+[2023-01-10T19:03:17.905] [WARN] custom - SocketOn
+[2023-01-10T19:03:23.064] [ERROR] custom - SocketOn
+[2023-01-10T19:03:23.064] [WARN] custom - SocketOn
+[2023-01-10T19:04:01.401] [ERROR] custom - SocketOn
+[2023-01-10T19:04:01.402] [WARN] custom - SocketOn
+[2023-01-10T19:04:03.375] [ERROR] custom - TypeError: Cannot read properties of undefined (reading 'user')
+    at agregarCarrito (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:51:46)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-10T19:04:10.677] [ERROR] custom - SocketOn
+[2023-01-10T19:04:10.678] [WARN] custom - SocketOn
+[2023-01-10T19:04:23.528] [ERROR] custom - SocketOn
+[2023-01-10T19:04:23.529] [WARN] custom - SocketOn
+[2023-01-10T19:04:28.150] [ERROR] custom - SocketOn
+[2023-01-10T19:04:28.150] [WARN] custom - SocketOn
+[2023-01-10T19:04:31.902] [ERROR] custom - SocketOn
+[2023-01-10T19:04:31.902] [WARN] custom - SocketOn
+[2023-01-10T19:04:49.204] [ERROR] custom - SocketOn
+[2023-01-10T19:04:49.204] [WARN] custom - SocketOn
+[2023-01-10T19:04:56.393] [ERROR] custom - SocketOn
+[2023-01-10T19:04:56.394] [WARN] custom - SocketOn
+[2023-01-10T19:05:47.192] [ERROR] custom - SocketOn
+[2023-01-10T19:05:47.192] [WARN] custom - SocketOn
+[2023-01-10T19:05:55.444] [ERROR] custom - SocketOn
+[2023-01-10T19:05:55.444] [WARN] custom - SocketOn
+[2023-01-10T19:05:56.593] [ERROR] custom - SocketOn
+[2023-01-10T19:05:56.594] [WARN] custom - SocketOn
+[2023-01-10T19:08:46.771] [ERROR] custom - SocketOn
+[2023-01-10T19:08:46.772] [WARN] custom - SocketOn
+[2023-01-10T19:10:35.045] [ERROR] custom - SocketOn
+[2023-01-10T19:10:35.046] [WARN] custom - SocketOn
+[2023-01-10T19:11:49.437] [ERROR] custom - SocketOn
+[2023-01-10T19:11:49.438] [WARN] custom - SocketOn
+[2023-01-10T19:11:52.394] [ERROR] custom - SocketOn
+[2023-01-10T19:11:52.394] [WARN] custom - SocketOn
+[2023-01-10T19:11:54.999] [ERROR] custom - SocketOn
+[2023-01-10T19:11:54.999] [WARN] custom - SocketOn
+[2023-01-10T19:11:56.495] [ERROR] custom - SocketOn
+[2023-01-10T19:11:56.495] [WARN] custom - SocketOn
+[2023-01-10T19:11:59.999] [ERROR] custom - SocketOn
+[2023-01-10T19:11:59.999] [WARN] custom - SocketOn
+[2023-01-10T19:12:06.857] [ERROR] custom - SocketOn
+[2023-01-10T19:12:06.857] [WARN] custom - SocketOn
+[2023-01-10T19:12:11.126] [ERROR] custom - SocketOn
+[2023-01-10T19:12:11.126] [WARN] custom - SocketOn
+[2023-01-10T19:12:12.867] [ERROR] custom - SocketOn
+[2023-01-10T19:12:12.868] [WARN] custom - SocketOn
+[2023-01-10T19:12:22.353] [ERROR] custom - SocketOn
+[2023-01-10T19:12:22.353] [WARN] custom - SocketOn
+[2023-01-10T19:12:57.637] [ERROR] custom - SocketOn
+[2023-01-10T19:12:57.639] [WARN] custom - SocketOn
+[2023-01-10T19:21:49.068] [ERROR] custom - SocketOn
+[2023-01-10T19:21:49.069] [WARN] custom - SocketOn
+[2023-01-10T19:22:09.294] [ERROR] custom - SocketOn
+[2023-01-10T19:22:09.295] [WARN] custom - SocketOn
+[2023-01-10T19:22:29.696] [ERROR] custom - SocketOn
+[2023-01-10T19:22:29.698] [WARN] custom - SocketOn
+[2023-01-10T19:23:05.947] [ERROR] custom - SocketOn
+[2023-01-10T19:23:05.948] [WARN] custom - SocketOn
+[2023-01-10T19:23:07.812] [ERROR] custom - SocketOn
+[2023-01-10T19:23:07.813] [WARN] custom - SocketOn
+[2023-01-10T19:24:51.401] [ERROR] custom - SocketOn
+[2023-01-10T19:24:51.402] [WARN] custom - SocketOn
+[2023-01-10T19:25:00.668] [ERROR] custom - SocketOn
+[2023-01-10T19:25:00.670] [WARN] custom - SocketOn
+[2023-01-10T19:27:00.785] [ERROR] custom - SocketOn
+[2023-01-10T19:27:00.786] [WARN] custom - SocketOn
+[2023-01-10T19:27:03.908] [ERROR] custom - SocketOn
+[2023-01-10T19:27:03.909] [WARN] custom - SocketOn
+[2023-01-10T19:27:18.802] [ERROR] custom - SocketOn
+[2023-01-10T19:27:18.802] [WARN] custom - SocketOn
+[2023-01-10T19:27:22.076] [ERROR] custom - SocketOn
+[2023-01-10T19:27:22.076] [WARN] custom - SocketOn
+[2023-01-10T19:27:32.040] [ERROR] custom - SocketOn
+[2023-01-10T19:27:32.041] [WARN] custom - SocketOn
+[2023-01-10T19:27:35.835] [ERROR] custom - SocketOn
+[2023-01-10T19:27:35.836] [WARN] custom - SocketOn
+[2023-01-10T19:27:54.552] [ERROR] custom - SocketOn
+[2023-01-10T19:27:54.552] [WARN] custom - SocketOn
+[2023-01-10T19:28:03.163] [ERROR] custom - SocketOn
+[2023-01-10T19:28:03.163] [WARN] custom - SocketOn
+[2023-01-10T19:28:06.137] [ERROR] custom - SocketOn
+[2023-01-10T19:28:06.137] [WARN] custom - SocketOn
+[2023-01-10T19:28:07.952] [ERROR] custom - SocketOn
+[2023-01-10T19:28:07.952] [WARN] custom - SocketOn
+[2023-01-10T19:28:10.252] [ERROR] custom - SocketOn
+[2023-01-10T19:28:10.252] [WARN] custom - SocketOn
+[2023-01-10T19:28:12.586] [ERROR] custom - SocketOn
+[2023-01-10T19:28:12.586] [WARN] custom - SocketOn
+[2023-01-10T19:29:41.075] [ERROR] custom - SocketOn
+[2023-01-10T19:29:41.077] [WARN] custom - SocketOn
+[2023-01-10T19:29:45.279] [ERROR] custom - SocketOn
+[2023-01-10T19:29:45.280] [WARN] custom - SocketOn
+[2023-01-10T19:29:47.771] [ERROR] custom - SocketOn
+[2023-01-10T19:29:47.773] [WARN] custom - SocketOn
+[2023-01-10T19:29:50.948] [ERROR] custom - SocketOn
+[2023-01-10T19:29:50.948] [WARN] custom - SocketOn
+[2023-01-10T19:29:54.890] [ERROR] custom - SocketOn
+[2023-01-10T19:29:54.890] [WARN] custom - SocketOn
+[2023-01-10T19:29:58.107] [ERROR] custom - SocketOn
+[2023-01-10T19:29:58.108] [WARN] custom - SocketOn
+[2023-01-10T19:30:18.272] [ERROR] custom - SocketOn
+[2023-01-10T19:30:18.273] [WARN] custom - SocketOn
+[2023-01-10T19:30:21.952] [ERROR] custom - SocketOn
+[2023-01-10T19:30:21.953] [WARN] custom - SocketOn
+[2023-01-10T19:30:39.868] [ERROR] custom - SocketOn
+[2023-01-10T19:30:39.868] [WARN] custom - SocketOn
+[2023-01-10T19:31:11.105] [ERROR] custom - SocketOn
+[2023-01-10T19:31:11.106] [WARN] custom - SocketOn
+[2023-01-10T19:31:19.031] [ERROR] custom - SocketOn
+[2023-01-10T19:31:19.032] [WARN] custom - SocketOn
+[2023-01-10T19:31:21.607] [ERROR] custom - SocketOn
+[2023-01-10T19:31:21.607] [WARN] custom - SocketOn
+[2023-01-10T19:31:27.092] [ERROR] custom - SocketOn
+[2023-01-10T19:31:27.093] [WARN] custom - SocketOn
+[2023-01-10T19:32:24.994] [ERROR] custom - SocketOn
+[2023-01-10T19:32:24.994] [WARN] custom - SocketOn
+[2023-01-10T19:34:12.307] [ERROR] custom - SocketOn
+[2023-01-10T19:34:12.308] [WARN] custom - SocketOn
+[2023-01-10T19:34:51.486] [ERROR] custom - SocketOn
+[2023-01-10T19:34:51.487] [WARN] custom - SocketOn
+[2023-01-10T19:35:09.840] [ERROR] custom - SocketOn
+[2023-01-10T19:35:09.841] [WARN] custom - SocketOn
+[2023-01-10T19:35:16.930] [ERROR] custom - SocketOn
+[2023-01-10T19:35:16.931] [WARN] custom - SocketOn
+[2023-01-10T19:35:24.093] [ERROR] custom - SocketOn
+[2023-01-10T19:35:24.096] [WARN] custom - SocketOn
+[2023-01-10T19:35:29.376] [ERROR] custom - SocketOn
+[2023-01-10T19:35:29.376] [WARN] custom - SocketOn
+[2023-01-10T19:35:44.488] [ERROR] custom - SocketOn
+[2023-01-10T19:35:44.488] [WARN] custom - SocketOn
+[2023-01-10T19:35:46.753] [ERROR] custom - SocketOn
+[2023-01-10T19:35:46.753] [WARN] custom - SocketOn
+[2023-01-10T19:35:53.604] [ERROR] custom - SocketOn
+[2023-01-10T19:35:53.604] [WARN] custom - SocketOn
+[2023-01-10T19:39:49.227] [ERROR] custom - SocketOn
+[2023-01-10T19:39:49.227] [WARN] custom - SocketOn
+[2023-01-10T19:40:44.868] [ERROR] custom - SocketOn
+[2023-01-10T19:40:44.869] [WARN] custom - SocketOn
+[2023-01-10T19:41:24.745] [ERROR] custom - SocketOn
+[2023-01-10T19:41:24.746] [WARN] custom - SocketOn
+[2023-01-10T19:41:54.820] [ERROR] custom - SocketOn
+[2023-01-10T19:41:54.821] [WARN] custom - SocketOn
+[2023-01-10T19:42:01.274] [ERROR] custom - SocketOn
+[2023-01-10T19:42:01.274] [WARN] custom - SocketOn
+[2023-01-10T19:42:10.883] [ERROR] custom - SocketOn
+[2023-01-10T19:42:10.884] [WARN] custom - SocketOn
+[2023-01-10T19:42:13.037] [ERROR] custom - SocketOn
+[2023-01-10T19:42:13.037] [WARN] custom - SocketOn
+[2023-01-10T19:42:14.405] [ERROR] custom - SocketOn
+[2023-01-10T19:42:14.406] [WARN] custom - SocketOn
+[2023-01-10T19:43:43.143] [ERROR] custom - SocketOn
+[2023-01-10T19:43:43.143] [WARN] custom - SocketOn
+[2023-01-10T19:43:45.027] [ERROR] custom - SocketOn
+[2023-01-10T19:43:45.028] [WARN] custom - SocketOn
+[2023-01-10T19:43:46.518] [ERROR] custom - SocketOn
+[2023-01-10T19:43:46.518] [WARN] custom - SocketOn
+[2023-01-10T19:44:14.375] [ERROR] custom - SocketOn
+[2023-01-10T19:44:14.376] [WARN] custom - SocketOn
+[2023-01-10T19:44:21.007] [ERROR] custom - SocketOn
+[2023-01-10T19:44:21.007] [WARN] custom - SocketOn
+[2023-01-10T19:44:46.561] [ERROR] custom - SocketOn
+[2023-01-10T19:44:46.561] [WARN] custom - SocketOn
+[2023-01-10T19:45:08.455] [ERROR] custom - SocketOn
+[2023-01-10T19:45:08.455] [WARN] custom - SocketOn
+[2023-01-10T19:45:11.599] [ERROR] custom - SocketOn
+[2023-01-10T19:45:11.599] [WARN] custom - SocketOn
+[2023-01-10T19:45:14.049] [ERROR] custom - SocketOn
+[2023-01-10T19:45:14.051] [WARN] custom - SocketOn
+[2023-01-10T19:45:17.409] [ERROR] custom - SocketOn
+[2023-01-10T19:45:17.409] [WARN] custom - SocketOn
+[2023-01-10T19:45:22.655] [ERROR] custom - SocketOn
+[2023-01-10T19:45:22.656] [WARN] custom - SocketOn
+[2023-01-10T19:45:35.258] [ERROR] custom - SocketOn
+[2023-01-10T19:45:35.258] [WARN] custom - SocketOn
+[2023-01-10T19:45:36.735] [ERROR] custom - SocketOn
+[2023-01-10T19:45:36.736] [WARN] custom - SocketOn
+[2023-01-10T19:46:01.384] [ERROR] custom - SocketOn
+[2023-01-10T19:46:01.385] [WARN] custom - SocketOn
+[2023-01-10T19:48:28.941] [ERROR] custom - SocketOn
+[2023-01-10T19:48:28.942] [WARN] custom - SocketOn
+[2023-01-10T19:51:11.047] [ERROR] custom - SocketOn
+[2023-01-10T19:51:11.048] [WARN] custom - SocketOn
