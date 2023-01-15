@@ -1444,3 +1444,22 @@
 [2023-01-15T16:53:32.789] [ERROR] custom - SocketOn
 [2023-01-15T16:54:03.684] [ERROR] custom - SocketOn
 [2023-01-15T16:54:15.981] [ERROR] custom - SocketOn
+[2023-01-15T17:00:47.639] [ERROR] custom - SocketOn
+[2023-01-15T17:01:05.718] [ERROR] custom - SocketOn
+[2023-01-15T17:09:57.129] [ERROR] custom - SocketOn
+[2023-01-15T17:10:16.192] [ERROR] custom - SocketOn
+[2023-01-15T17:10:35.585] [ERROR] custom - SocketOn
+[2023-01-15T17:11:19.176] [ERROR] custom - SocketOn
+[2023-01-15T17:11:26.039] [ERROR] custom - error obtenerProductos ID BSONTypeError: Argument passed in must be a string of 12 bytes or a string of 24 hex characters or an integer
+    at new BSONTypeError (C:\Users\Dario\Desktop\finalBack\node_modules\bson\lib\error.js:41:28)
+    at new ObjectId (C:\Users\Dario\Desktop\finalBack\node_modules\bson\lib\objectid.js:67:23)
+    at ObjectId (C:\Users\Dario\Desktop\finalBack\node_modules\bson\lib\objectid.js:26:20)
+    at ProductosDBMongoDAO.obtenerProductosId (C:\Users\Dario\Desktop\finalBack\model\DAOs\productosDBMongo.js:36:65)
+    at ApiProductos.obtenerProductosId (C:\Users\Dario\Desktop\finalBack\api\productos.api.js:13:39)
+    at obtenerProductosId (C:\Users\Dario\Desktop\finalBack\controllers\producto.controllers.js:36:55)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+[2023-01-15T17:11:41.135] [ERROR] custom - SocketOn
+[2023-01-15T17:11:55.457] [ERROR] custom - SocketOn
