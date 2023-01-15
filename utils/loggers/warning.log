@@ -2163,3 +2163,74 @@
 [2023-01-15T15:43:26.409] [WARN] custom - SocketOn
 [2023-01-15T16:31:13.045] [ERROR] custom - SocketOn
 [2023-01-15T16:31:13.046] [WARN] custom - SocketOn
+[2023-01-15T16:36:48.636] [ERROR] custom - SocketOn
+[2023-01-15T16:36:48.638] [WARN] custom - SocketOn
+[2023-01-15T16:36:56.572] [ERROR] custom - error Carrito TypeError: Cannot read properties of undefined (reading 'user')
+    at obtenerCarritos (C:\Users\Dario\Desktop\finalBack\controllers\carrito.controllers.js:13:49)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:144:13)
+    at Route.dispatch (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\route.js:114:3)
+    at Layer.handle [as handle_request] (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\Dario\Desktop\finalBack\node_modules\express\lib\router\index.js:47:12)
+[2023-01-15T16:37:03.231] [ERROR] custom - SocketOn
+[2023-01-15T16:37:03.232] [WARN] custom - SocketOn
+[2023-01-15T16:37:06.731] [ERROR] custom - SocketOn
+[2023-01-15T16:37:06.732] [WARN] custom - SocketOn
+[2023-01-15T16:37:52.832] [ERROR] custom - SocketOn
+[2023-01-15T16:37:52.833] [WARN] custom - SocketOn
+[2023-01-15T16:48:18.894] [ERROR] custom - SocketOn
+[2023-01-15T16:48:18.895] [WARN] custom - SocketOn
+[2023-01-15T16:48:22.625] [ERROR] custom - SocketOn
+[2023-01-15T16:48:22.625] [WARN] custom - SocketOn
+[2023-01-15T16:48:45.476] [ERROR] custom - SocketOn
+[2023-01-15T16:48:45.476] [WARN] custom - SocketOn
+[2023-01-15T16:49:29.944] [ERROR] custom - SocketOn
+[2023-01-15T16:49:29.946] [WARN] custom - SocketOn
+[2023-01-15T16:49:32.430] [ERROR] custom - SocketOn
+[2023-01-15T16:49:32.431] [WARN] custom - SocketOn
+[2023-01-15T16:49:34.774] [ERROR] custom - SocketOn
+[2023-01-15T16:49:34.774] [WARN] custom - SocketOn
+[2023-01-15T16:50:18.553] [ERROR] custom - SocketOn
+[2023-01-15T16:50:18.553] [WARN] custom - SocketOn
+[2023-01-15T16:50:21.116] [ERROR] custom - SocketOn
+[2023-01-15T16:50:21.116] [WARN] custom - SocketOn
+[2023-01-15T16:50:27.503] [ERROR] custom - SocketOn
+[2023-01-15T16:50:27.503] [WARN] custom - SocketOn
+[2023-01-15T16:50:40.036] [ERROR] custom - SocketOn
+[2023-01-15T16:50:40.037] [WARN] custom - SocketOn
+[2023-01-15T16:50:43.737] [ERROR] custom - SocketOn
+[2023-01-15T16:50:43.737] [WARN] custom - SocketOn
+[2023-01-15T16:50:55.171] [ERROR] custom - SocketOn
+[2023-01-15T16:50:55.172] [WARN] custom - SocketOn
+[2023-01-15T16:51:08.854] [ERROR] custom - SocketOn
+[2023-01-15T16:51:08.855] [WARN] custom - SocketOn
+[2023-01-15T16:51:11.353] [ERROR] custom - SocketOn
+[2023-01-15T16:51:11.353] [WARN] custom - SocketOn
+[2023-01-15T16:51:23.092] [ERROR] custom - SocketOn
+[2023-01-15T16:51:23.093] [WARN] custom - SocketOn
+[2023-01-15T16:52:00.636] [ERROR] custom - SocketOn
+[2023-01-15T16:52:00.637] [WARN] custom - SocketOn
+[2023-01-15T16:52:21.913] [ERROR] custom - SocketOn
+[2023-01-15T16:52:21.914] [WARN] custom - SocketOn
+[2023-01-15T16:52:27.071] [ERROR] custom - SocketOn
+[2023-01-15T16:52:27.077] [WARN] custom - SocketOn
+[2023-01-15T16:52:30.435] [ERROR] custom - SocketOn
+[2023-01-15T16:52:30.435] [WARN] custom - SocketOn
+[2023-01-15T16:52:56.775] [ERROR] custom - SocketOn
+[2023-01-15T16:52:56.775] [WARN] custom - SocketOn
+[2023-01-15T16:53:19.346] [ERROR] custom - SocketOn
+[2023-01-15T16:53:19.346] [WARN] custom - SocketOn
+[2023-01-15T16:53:20.937] [ERROR] custom - SocketOn
+[2023-01-15T16:53:20.937] [WARN] custom - SocketOn
+[2023-01-15T16:53:28.757] [ERROR] custom - SocketOn
+[2023-01-15T16:53:28.757] [WARN] custom - SocketOn
+[2023-01-15T16:53:32.789] [ERROR] custom - SocketOn
+[2023-01-15T16:53:32.790] [WARN] custom - SocketOn
+[2023-01-15T16:54:03.684] [ERROR] custom - SocketOn
+[2023-01-15T16:54:03.684] [WARN] custom - SocketOn
+[2023-01-15T16:54:15.981] [ERROR] custom - SocketOn
+[2023-01-15T16:54:15.982] [WARN] custom - SocketOn
